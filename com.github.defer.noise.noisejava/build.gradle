@@ -1,4 +1,4 @@
 apply plugin: "org.javamodularity.moduleplugin"
 
 modularity.mixedJavaRelease(8)
-project.version = "1.0.0"
+project.version = "1.0.1-SNAPSHOT"
