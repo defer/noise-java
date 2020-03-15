@@ -28,6 +28,7 @@ allprojects {
 
     if (isLibrarySubModule) {
         apply plugin: "java-library"
+        apply plugin: "maven"
         apply plugin: "maven-publish"
         apply plugin: "io.freefair.javadoc-links"
     }
